@@ -1,0 +1,11 @@
+title: Can Beets Turn Your Poop Red Or Am I Dying?
+email: your-email@domain.com
+description: Is your poop red? Ate some beets? Want to know if you're dying? This is the place for you.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima

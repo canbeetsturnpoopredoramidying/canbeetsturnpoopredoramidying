@@ -1,0 +1,62 @@
+/**
+ * Basic styling
+ */
+body {
+  margin: 0;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+/**
+ * Headings
+ */
+h1 {
+  margin: 0;
+  font-size: calc(2em + 2.5vw);
+  font-weight: $base-font-weight;
+  line-height: 1;
+  text-align: center;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  min-height: 100vh;
+  // max-width: $content-width;
+  // margin-left: $spacing-unit;
+  // margin-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $on-laptop) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
