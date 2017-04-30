@@ -4,4 +4,4 @@ image: 'android-chrome-192x192.png'
 ---
 # Don’t worry. You’re (probably) not dying.
 
-<p style="text-align: center;">Hello my name is Jared</p>
+<p style="text-align:center;">Hello my name is Jared</p>
